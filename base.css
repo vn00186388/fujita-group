@@ -1,0 +1,54 @@
+/*------------------------------------*    #CLEARFIX
+\*------------------------------------*/
+/**
+ * Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+ * Extend the clearfix class with Sass to avoid the `.clearfix` class appearing
+ * over and over in your markup.
+ */
+.clearfix:after,
+.u_clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto; }
+
+.u_hidden {
+  display: none; }
+
+.u_bold {
+  font-weight: 700; }
+
+.u_text-center {
+  text-align: center; }
+
+.u_text-right {
+  text-align: right; }
+
+.u_text-left {
+  text-align: left; }
+
+.u_serif {
+  font-family: "garamond-premier-pro-display", Georgia, Cambria, "Times New Roman", Times, serif !important; }
+
+.u_serif-italic {
+  font-family: "garamond-premier-pro-display", Georgia, Cambria, "Times New Roman", Times, serif !important;
+  font-style: italic !important; }
+
+.u_anchor {
+  display: block;
+  height: 140px;
+  margin-top: -140px; }
